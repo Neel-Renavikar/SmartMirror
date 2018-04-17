@@ -1,7 +1,7 @@
 var self = this;
 moment.locale("en");
 
-			$.getJSON("http://api.openweathermap.org/data/2.5/forecast?id=1253367&APPID=<API ID>",function(json){            
+			$.getJSON("http://api.openweathermap.org/data/2.5/forecast?id=1253367&APPID=ce2fa2a16af8d4c0226329790cd0ee2c",function(json){            
 		
 		//document.getElementById("forecast").innerHTML = JSON.stringify(json);
 		days = ['Sunday' , 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];		
