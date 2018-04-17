@@ -3,13 +3,22 @@
 <head>
 	<title>Smart Mirror</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/currentweather.css">
+	<link rel="stylesheet" type="text/css" href="css/weatherforecast.css">
+	<!--link rel="stylesheet" type="text/css" href="css/roboto.css"-->
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 </head>
 <body>
+	<div id="top-ele">
 	<p id="time"></p>
 	<p id="date"></p>
 	<p id="weather"></p>
+	</div>
+	<div id="bot-ele">
 	<p id="forecast"></p>
-	<p id="calendar"></p>
+	<div id="feed"></div>
+	<div id="compliments"></div>
+	</div>
 	<p id="youtube"></p>
 	<div id="demo"></p>
 	<script src="node_modules/moment/moment.js"></script>
@@ -23,5 +32,21 @@
 	<script src ="js/currentweather.js"></script>
 	<script src ="js/weatherforecast.js"></script>
 	<script src ="js/calendar.js"></script>
+	<!--<script src ="js/calendarEventAdd.js"></script>
+
+	<div>
+		<form action="#">
+			<p><input type="text" id="summary" placeholder="Event Name" autocomplete="off"/></p>
+			<p><input type="text" id="location" placeholder="Location" autocomplete="off"/></p>
+			<p><input type="text" id="Start Date Time" placeholder="2015-05-28T09:00:00+05:30" autocomplete="off"/></p>
+			<p><input type="text" id="End Date Time" placeholder="2015-05-28T09:00:00+05:30" autocomplete="off"/></p>
+			<p><input type="submit" value="search"></p>
+		</form>
+	</div>-->
+
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<!--<script src="js/calendarEventAdd.js"></script>-->
+	<script src="https://apis.google.com/js/platform.js"></script>
+	<script src="https://apis.google.com/js/client.js?onload=init"></script>
 </body>
 </html>

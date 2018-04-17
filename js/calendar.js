@@ -44,8 +44,8 @@ var settings = {
 				}
 				}
 			}
-		//	console.log(result[0]);			
-		//	console.log(data);
+			console.log(result[0]);			
+			console.log(data);
 		}
 		else{
 			console.error(err);

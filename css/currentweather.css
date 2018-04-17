@@ -1,0 +1,15 @@
+#weather{
+  position: absolute;
+  display: inline-block;
+  top:0px;
+  right:120px;
+  width:300px;
+}
+
+.weather .humidityIcon {
+  padding-right: 4px;
+}
+
+.weather .humidity-padding {
+  padding-bottom: 6px;
+}
