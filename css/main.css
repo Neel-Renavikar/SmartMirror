@@ -1,5 +1,29 @@
-html{
-	cursor: none;
-	overflow: hidden;
-	
+html {
+  cursor: none;
+  overflow: hidden;
+  background: #000;
+}
+
+
+body {
+  margin: 60px;
+  position: absolute;
+  height: calc(100% - 120px);
+  width: calc(100% - 120px);
+  background: #000;
+  color: #bbbbbb;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+
+#top-ele{
+	display: inline-block;
+	margin-bottom: : 10px;
+	font-size: 25px;
+}
+#bot-ele{
+	margin-top: 320px;
+	font-size: 25px;
 }
