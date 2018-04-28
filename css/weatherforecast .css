@@ -1,7 +1,8 @@
 #forecast{
 
-  margin-top: 100px;
-  padding-top: 100px;
-  display: block;
+  top: -100px;
+  padding-top: 10px;
+  display: inline-block;
+  font-size:20px;
 }
 

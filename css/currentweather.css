@@ -1,11 +1,19 @@
 #weather{
   position: absolute;
   display: inline-block;
-  top:0px;
-  right:120px;
+  top:-50px;
+  right:-65px;
   width:300px;
+  font-size:20px;
+  font-family: "Times New Roman", Times, serif;
 }
+#transcript{
+  display: inline-block;
+  top:-50px;
+  right:-350px;
+  width:300px;
 
+}
 .weather .humidityIcon {
   padding-right: 4px;
 }
